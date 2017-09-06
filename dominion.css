@@ -1,0 +1,101 @@
+body {
+	background-image: url("assets/background/castle.jpg");
+    background-size: 100%;
+}
+
+#gameTable { 
+	float: left;
+	width: 80%; 
+
+}
+#gameLog { 
+	float: left;
+	width: 20%;
+	color: white;
+    background-color: black;
+}
+
+#supply { 
+
+}
+
+.player {
+	color: white;
+	
+}
+.playerInfo {
+	display:inline-block;
+	margin: 10px;
+}
+.playerDeck {
+	display:inline-block;
+	margin: 10px;
+}
+.playerHand {
+	display:inline-block;
+	margin: 10px;
+}
+.playerPlay {
+	display:inline-block;
+	margin: 10px;
+}
+.playerDiscard {
+	display:inline-block;
+	margin: 10px;
+}
+
+.supplyPile {
+	position:relative;
+	border-style: solid;	
+	margin: 5px;
+	height: 105px;
+	width: 120px;
+	overflow:hidden;
+}
+.supplyPileImage {
+	height: 180px;
+	width: 120px;
+}
+
+.actionSupplyPile {
+	display: inline-block;
+}
+#victorySupply {
+	display: inline-block;
+	vertical-align: top;
+}
+#treasureSupply {
+	display: inline-block;
+	vertical-align: top;
+}
+#actionSupply {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cardCount {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:20px;
+	width: 20px;
+	border-radius:2px;
+	text-align: center;
+	vertical-align: center;
+	color:white;
+	background-color: red;
+}
+.cardCost {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:20px;
+	width: 20px;
+	border-radius:10px;
+	text-align: center;
+	vertical-align: center;
+	color:black;
+	font-weight: bold;
+	background-color: #C3AD4B;
+}
+
